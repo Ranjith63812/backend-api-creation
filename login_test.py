@@ -3,8 +3,8 @@ import pymysql
 conn = pymysql.connect(
     host='localhost',
     user='root',
-    password='Ranjith@5',
-    database='kapni'
+    password='',
+    database=''
 )
 
 cursor = conn.cursor()
